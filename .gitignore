@@ -1,0 +1,148 @@
+# .gitignore - Comprehensive exclusions for MMM project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.html
+notebooks/*.html
+*-checkpoint.ipynb
+
+# Data files (keep only original source data)
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.pickle
+data/*.pkl
+!data/weekly_data.zip
+!data/README.md
+
+# Generated reports and outputs
+reports/
+outputs/
+results/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Model files and artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.model
+*.sav
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+logs/
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.txt
+config.yaml
+credentials.json
+
+# Documentation outputs
+writeup.pdf
+*.docx
+docs/_build/
+
+# Testing and coverage
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# System and cache files
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives and compressed files (except source data)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+!data/weekly_data.zip
+
+# Large files (Git LFS should be used for these)
+*.bin
+*.dat
+*.h5
+*.hdf5
