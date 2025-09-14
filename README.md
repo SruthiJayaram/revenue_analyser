@@ -261,7 +261,7 @@ To extend this analysis:
 
 **Project**: Marketing Mix Modeling Analysis  
 **Author**: Sruthi Jayaram  
-**Email**: sruthi.jayaram@email.com  
+**Email**: sruthijayaram987@email.com  
 
 ---
 
