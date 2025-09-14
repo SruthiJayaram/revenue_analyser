@@ -33,12 +33,12 @@ pip install -r requirements.txt
 
 3. **Run the analysis:**
 ```bash
-# Option 1: Run notebooks in order
+# Run notebooks in order for complete analysis
 jupyter notebook notebooks/01_EDA_and_prep.ipynb
 jupyter notebook notebooks/02_modeling_iv_elasticnet_xgb.ipynb
 
-# Option 2: Use pipeline script (if configured)
-bash run_pipeline.sh
+# Or launch Jupyter and run cells interactively
+jupyter notebook
 ```
 
 ## 📁 Project Structure
@@ -60,8 +60,7 @@ revenue_analyser/
 │   ├── *.pkl                       # Saved models and summaries
 │   └── analysis_summary.pkl        # Complete findings
 ├── 📋 requirements.txt             # Python dependencies
-├── 🔧 run_pipeline.sh             # Pipeline execution script
-├── 🙈 .gitignore                   # Comprehensive exclusions
+├──  .gitignore                   # Comprehensive exclusions
 └── 📖 README.md                    # This file
 ```
 
